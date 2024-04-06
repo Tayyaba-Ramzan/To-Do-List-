@@ -1,0 +1,21 @@
+{
+  "name": "@tayyaba.__.ramzan/to-do-list",
+  "version": "2.0.1",
+  "description": "Maximize productivity with our TypeScript, Node.js & Inquirer to-do app. Stay focused with personalized lists and effortless tracking.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tayyaba Ramzan",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.17"
+  }
+}
