@@ -2,10 +2,6 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 
-console.log(chalk.bgBlue.white.bold.italic("-------(WELCOME TO MY TO-DO LIST PROJECT)-------"));
-console.log("______________________________________________");
-console.log();
-
 let toDos: string[] = [];
 let condition = true;
 
@@ -25,9 +21,8 @@ while (condition) {
                 message: "Please add some items:",
                 type: "input",
                 name: "addItem"
-
             }
-
+            
         ]);
         toDos.push(add.addItem);
         console.log(chalk.cyan("Item added successfully!"), toDos);
@@ -77,7 +72,3 @@ while (condition) {
         console.log(chalk.yellow("Exiting To-Do List..."));
     }
 }
-
-console.log();
-console.log(chalk.bgGrey.green("-------(THE END!)-------"));
-console.log(chalk.white("________________________"));
