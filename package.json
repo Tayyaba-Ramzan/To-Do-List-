@@ -1,6 +1,6 @@
 {
   "name": "@tayyaba.__.ramzan/to-do-list",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Maximize productivity with our TypeScript, Node.js & Inquirer to-do app. Stay focused with personalized lists and effortless tracking.",
   "main": "index.js",
   "type": "module",
